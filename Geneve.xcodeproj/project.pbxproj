@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0764A795DF670B0A0CB88901 /* libPods-Geneve.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4BA7DC70DD397A87248DC4 /* libPods-Geneve.a */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* LiensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* LiensViewController.m */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		750A6586202EF8C1006BA4A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */; };
+		753A4E3E0FFD536400A38D60 /* communes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 753A4E3D0FFD536400A38D60 /* communes.sqlite */; };
+		753A4EA70FFD5BD500A38D60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753A4EA60FFD5BD500A38D60 /* MapKit.framework */; };
+		753A4ED00FFD5CB700A38D60 /* CommunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A4ECF0FFD5CB700A38D60 /* CommunesViewController.m */; };
+		753B69291039E86300C5CD02 /* liens.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 753B69281039E86300C5CD02 /* liens.sqlite */; };
+		753B692C1039E9B000C5CD02 /* Lien.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B692B1039E9B000C5CD02 /* Lien.m */; };
+		7569F839100A746800D9CE54 /* Commune.m in Sources */ = {isa = PBXBuildFile; fileRef = 7569F838100A746800D9CE54 /* Commune.m */; };
+		7569FA70100BC50600D9CE54 /* PhonebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7569FA6F100BC50600D9CE54 /* PhonebookController.m */; };
+		7569FD05100D2D1300D9CE54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7569FD04100D2D1300D9CE54 /* QuartzCore.framework */; };
+		75CF986F203859F900473312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF986E203859F800473312 /* Main.storyboard */; };
+		75CF987120385A0B00473312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF987020385A0A00473312 /* LaunchScreen.storyboard */; };
+		75CF987420385A2C00473312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF987320385A2B00473312 /* AppDelegate.swift */; };
+		75CF987620385A4E00473312 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF987520385A4E00473312 /* Images.xcassets */; };
+		75CF987920386FC700473312 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF987820386FC700473312 /* AboutViewController.swift */; };
+		75CF987C2038758F00473312 /* LienCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CF987B2038758F00473312 /* LienCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Geneve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geneve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* LiensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiensViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* LiensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiensViewController.m; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Geneve_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geneve_Prefix.pch; sourceTree = "<group>"; };
+		750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7526DCC5203CC381002A4FE0 /* Geneve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geneve.entitlements; sourceTree = "<group>"; };
+		753A4E3D0FFD536400A38D60 /* communes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = communes.sqlite; sourceTree = "<group>"; };
+		753A4E9E0FFD573B00A38D60 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		753A4EA60FFD5BD500A38D60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		753A4ECE0FFD5CB700A38D60 /* CommunesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunesViewController.h; sourceTree = "<group>"; };
+		753A4ECF0FFD5CB700A38D60 /* CommunesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunesViewController.m; sourceTree = "<group>"; };
+		753B69281039E86300C5CD02 /* liens.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = liens.sqlite; sourceTree = "<group>"; };
+		753B692A1039E9B000C5CD02 /* Lien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lien.h; sourceTree = "<group>"; };
+		753B692B1039E9B000C5CD02 /* Lien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lien.m; sourceTree = "<group>"; };
+		7569F837100A746800D9CE54 /* Commune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commune.h; sourceTree = "<group>"; };
+		7569F838100A746800D9CE54 /* Commune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commune.m; sourceTree = "<group>"; };
+		7569FA6E100BC50600D9CE54 /* PhonebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonebookController.h; sourceTree = "<group>"; };
+		7569FA6F100BC50600D9CE54 /* PhonebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhonebookController.m; sourceTree = "<group>"; };
+		7569FD04100D2D1300D9CE54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75CF986E203859F800473312 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		75CF987020385A0A00473312 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75CF987220385A2B00473312 /* Geneve-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geneve-Bridging-Header.h"; sourceTree = "<group>"; };
+		75CF987320385A2B00473312 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75CF987520385A4E00473312 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75CF987820386FC700473312 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		75CF987A2038758F00473312 /* LienCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LienCell.h; sourceTree = "<group>"; };
+		75CF987B2038758F00473312 /* LienCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LienCell.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Geneve-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geneve-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9D4BA7DC70DD397A87248DC4 /* libPods-Geneve.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Geneve.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE58752633B339C193BE5E43 /* Pods-Geneve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geneve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geneve/Pods-Geneve.debug.xcconfig"; sourceTree = "<group>"; };
+		DECB8C70941D1C3FBC746829 /* Pods-Geneve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geneve.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geneve/Pods-Geneve.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750A6586202EF8C1006BA4A3 /* libsqlite3.tbd in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				753A4EA70FFD5BD500A38D60 /* MapKit.framework in Frameworks */,
+				7569FD05100D2D1300D9CE54 /* QuartzCore.framework in Frameworks */,
+				0764A795DF670B0A0CB88901 /* libPods-Geneve.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* LiensViewController.h */,
+				28216C960DB411BC00E5133A /* LiensViewController.m */,
+				75CF987A2038758F00473312 /* LienCell.h */,
+				75CF987B2038758F00473312 /* LienCell.m */,
+				753A4ECE0FFD5CB700A38D60 /* CommunesViewController.h */,
+				753A4ECF0FFD5CB700A38D60 /* CommunesViewController.m */,
+				7569FA6E100BC50600D9CE54 /* PhonebookController.h */,
+				7569FA6F100BC50600D9CE54 /* PhonebookController.m */,
+				75CF987820386FC700473312 /* AboutViewController.swift */,
+			);
+			name = Views;
+			path = Classes/Views;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Geneve.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Genève */ = {
+			isa = PBXGroup;
+			children = (
+				75CF987E203878DC00473312 /* Geneve */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				2D529C8827AD35F640715B6B /* Pods */,
+			);
+			name = "Genève";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				7526DCC5203CC381002A4FE0 /* Geneve.entitlements */,
+				75CF987520385A4E00473312 /* Images.xcassets */,
+				753B69281039E86300C5CD02 /* liens.sqlite */,
+				753A4E3D0FFD536400A38D60 /* communes.sqlite */,
+				75CF986E203859F800473312 /* Main.storyboard */,
+				75CF987020385A0A00473312 /* LaunchScreen.storyboard */,
+				75CF987320385A2B00473312 /* AppDelegate.swift */,
+				28A0AB4B0D9B1048005BE974 /* Geneve_Prefix.pch */,
+				75CF987220385A2B00473312 /* Geneve-Bridging-Header.h */,
+				8D1107310486CEB800E47090 /* Geneve-Info.plist */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */,
+				7569FD04100D2D1300D9CE54 /* QuartzCore.framework */,
+				753A4EA60FFD5BD500A38D60 /* MapKit.framework */,
+				753A4E9E0FFD573B00A38D60 /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				9D4BA7DC70DD397A87248DC4 /* libPods-Geneve.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D529C8827AD35F640715B6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE58752633B339C193BE5E43 /* Pods-Geneve.debug.xcconfig */,
+				DECB8C70941D1C3FBC746829 /* Pods-Geneve.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75CF987720385D9300473312 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				753B692A1039E9B000C5CD02 /* Lien.h */,
+				753B692B1039E9B000C5CD02 /* Lien.m */,
+				7569F837100A746800D9CE54 /* Commune.h */,
+				7569F838100A746800D9CE54 /* Commune.m */,
+			);
+			name = Models;
+			path = Classes/Models;
+			sourceTree = "<group>";
+		};
+		75CF987E203878DC00473312 /* Geneve */ = {
+			isa = PBXGroup;
+			children = (
+				75CF987720385D9300473312 /* Models */,
+				080E96DDFE201D6D7F000001 /* Views */,
+				29B97315FDCFA39411CA2CEA /* Misc */,
+			);
+			path = Geneve;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Geneve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Geneve" */;
+			buildPhases = (
+				4614A00E6149CF8207E6C617 /* [CP] Check Pods Manifest.lock */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				D88B61BE85DA9B8C154CAA2E /* [CP] Embed Pods Frameworks */,
+				4E3DE67A833989A31BBFCF22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geneve;
+			productName = "Genève";
+			productReference = 1D6058910D05DD3D006BFB54 /* Geneve.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = H4N79GZ3RK;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Geneve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Genève */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Geneve */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CF987120385A0B00473312 /* LaunchScreen.storyboard in Resources */,
+				753A4E3E0FFD536400A38D60 /* communes.sqlite in Resources */,
+				75CF986F203859F900473312 /* Main.storyboard in Resources */,
+				75CF987620385A4E00473312 /* Images.xcassets in Resources */,
+				753B69291039E86300C5CD02 /* liens.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4614A00E6149CF8207E6C617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geneve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3DE67A833989A31BBFCF22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geneve/Pods-Geneve-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88B61BE85DA9B8C154CAA2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Geneve/Pods-Geneve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CF987420385A2C00473312 /* AppDelegate.swift in Sources */,
+				28216C970DB411BC00E5133A /* LiensViewController.m in Sources */,
+				753A4ED00FFD5CB700A38D60 /* CommunesViewController.m in Sources */,
+				75CF987920386FC700473312 /* AboutViewController.swift in Sources */,
+				7569F839100A746800D9CE54 /* Commune.m in Sources */,
+				75CF987C2038758F00473312 /* LienCell.m in Sources */,
+				7569FA70100BC50600D9CE54 /* PhonebookController.m in Sources */,
+				753B692C1039E9B000C5CD02 /* Lien.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE58752633B339C193BE5E43 /* Pods-Geneve.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = H4N79GZ3RK;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geneve/Geneve_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				IBC_FLATTEN_NIBS = NO;
+				INFOPLIST_FILE = "Geneve/Geneve-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rouge41.Gen-ve";
+				PRODUCT_NAME = Geneve;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Geneve/Geneve-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECB8C70941D1C3FBC746829 /* Pods-Geneve.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = H4N79GZ3RK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geneve/Geneve_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Geneve/Geneve-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rouge41.Gen-ve";
+				PRODUCT_NAME = Geneve;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Geneve/Geneve-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Geneve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Geneve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

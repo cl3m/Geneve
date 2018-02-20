@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Genève' target in the 'Genève' project
+//
+
+#ifdef __OBJC__
+    #import "GAI.h"
+    #import "GAIFields.h"
+    #import "GAIDictionaryBuilder.h"
+#endif
+
+#define APPCOLOR [UIColor colorWithRed:228/255. green:117/255. blue:54/255. alpha:255/255.]
+#define APPTEXTCOLOR [UIColor whiteColor]
