@@ -1,3 +1,5 @@
+![Icon](https://raw.githubusercontent.com/cl3m/Geneve/master/Icon.png)
+
 # Genève
 
 [![Disponible dans l'App Store](https://vignette.wikia.nocookie.net/assassinscreed/images/3/34/Dispo_App_Store_FR.png/revision/latest/scale-to-width-down/320?cb=20150323213650&path-prefix=fr)](https://itunes.apple.com/ch/app/gen%C3%A8ve/id316659265?mt=8&l=fr)
