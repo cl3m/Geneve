@@ -51,13 +51,6 @@ sqlite3 *database2;
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	/*sqlite3_stmt *statement;
-	 const char *sql = "SELECT COUNT(*) FROM communes";
-	 sqlite3_prepare_v2(database, sql, -1, &statement, NULL);
-	 sqlite3_step(statement);
-	 int count = (int)sqlite3_column_int(statement, 0);
-	 sqlite3_finalize(statement);*/
-	
 	return liens.count;
 }
 
@@ -75,13 +68,8 @@ sqlite3 *database2;
 		
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 		
-		cell.textLabel.font = [UIFont boldSystemFontOfSize:13.0];
+		cell.textLabel.font = [UIFont systemFontOfSize:17.0];
 		
-		cell.detailTextLabel.backgroundColor = [UIColor clearColor];
-		cell.detailTextLabel.opaque = NO;
-		cell.detailTextLabel.textColor = [UIColor grayColor];
-		cell.detailTextLabel.highlightedTextColor = [UIColor whiteColor];
-		cell.detailTextLabel.font = [UIFont systemFontOfSize:14];
 		cell.image = [[UIImageView alloc] initWithImage:l.logo];
 		[cell addSubview:cell.image];
 		CGRect frame = [cell.image frame];

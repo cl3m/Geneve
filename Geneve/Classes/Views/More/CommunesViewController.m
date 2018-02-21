@@ -75,7 +75,7 @@ sqlite3 *database;
 		
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 		
-		cell.textLabel.font = [UIFont boldSystemFontOfSize:14.0];
+		cell.textLabel.font = [UIFont systemFontOfSize:17.0];
 		
 		cell.detailTextLabel.backgroundColor = [UIColor clearColor];
 		cell.detailTextLabel.opaque = NO;

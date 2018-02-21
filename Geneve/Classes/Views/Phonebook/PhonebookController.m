@@ -55,8 +55,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
-		cell.textLabel.font = [UIFont boldSystemFontOfSize:14.0];
-		cell.detailTextLabel.font = [UIFont systemFontOfSize: 12.0];
+		cell.textLabel.font = [UIFont systemFontOfSize:17.0];
+		cell.detailTextLabel.font = [UIFont boldSystemFontOfSize: 14.0];
 		
     }
     

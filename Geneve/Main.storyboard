@@ -24,6 +24,7 @@
                         </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
+                        <segue destination="gAp-DI-e5W" kind="relationship" relationship="viewControllers" id="3TZ-cc-2Uo"/>
                         <segue destination="ji3-fZ-c4k" kind="relationship" relationship="viewControllers" id="WTS-cW-TuQ"/>
                         <segue destination="bRo-up-0uc" kind="relationship" relationship="viewControllers" id="h3Q-pz-c7h"/>
                         <segue destination="rRc-FU-euP" kind="relationship" relationship="viewControllers" id="2YI-Rv-5yM"/>
@@ -91,6 +92,42 @@
             </objects>
             <point key="canvasLocation" x="1569" y="655"/>
         </scene>
+        <!--Actualités-->
+        <scene sceneID="tGe-5j-tdI">
+            <objects>
+                <tableViewController title="Actualités" id="wEy-LM-1km" customClass="FeedTableViewController" customModule="Geneve" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oa6-Ls-aZO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="wEy-LM-1km" id="FKN-LL-kGq"/>
+                            <outlet property="delegate" destination="wEy-LM-1km" id="y7B-kP-dQz"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Actualités" id="z7K-wF-bwi"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHW-Iy-6sd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570" y="-985"/>
+        </scene>
+        <!--Actualités-->
+        <scene sceneID="BJX-1R-Oaj">
+            <objects>
+                <navigationController id="gAp-DI-e5W" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Actualités" image="news-off" selectedImage="news-on" id="ZhH-Oe-cN5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="eWI-jI-e6c">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wEy-LM-1km" kind="relationship" relationship="rootViewController" id="4cx-Te-nSD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZkQ-7p-otE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="-985"/>
+        </scene>
         <!--Liens-->
         <scene sceneID="hb1-Uw-OAQ">
             <objects>
@@ -108,7 +145,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="imv-lg-15y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1569" y="-983"/>
+            <point key="canvasLocation" x="1569" y="-269"/>
         </scene>
         <!--Crédits-->
         <scene sceneID="zA3-C0-zXV">
@@ -220,7 +257,7 @@ N'hésitez pas à y soumettre vos idées ou directement vos améliorations.</str
         <!--En plus-->
         <scene sceneID="5gI-hy-mmY">
             <objects>
-                <tableViewController title="En plus" id="ZRe-wg-ahi" customClass="MoreTableViewController" customModule="Geneve" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="En plus" id="ZRe-wg-ahi" customClass="GAITableViewController" customModule="Geneve" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6rO-HS-btZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -407,7 +444,7 @@ N'hésitez pas à y soumettre vos idées ou directement vos améliorations.</str
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ak-YD-2nu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="709" y="-982"/>
+            <point key="canvasLocation" x="708" y="-269"/>
         </scene>
     </scenes>
     <resources>
@@ -420,6 +457,8 @@ N'hésitez pas à y soumettre vos idées ou directement vos améliorations.</str
         <image name="license" width="30" height="30"/>
         <image name="more-off" width="30" height="30"/>
         <image name="more-on" width="30" height="30"/>
+        <image name="news-off" width="30" height="30"/>
+        <image name="news-on" width="30" height="30"/>
         <image name="phone-off" width="30" height="30"/>
         <image name="phone-on" width="30" height="30"/>
         <image name="shield-off" width="30" height="30"/>
