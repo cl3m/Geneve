@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0764A795DF670B0A0CB88901 /* libPods-Geneve.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4BA7DC70DD397A87248DC4 /* libPods-Geneve.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28216C970DB411BC00E5133A /* LiensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* LiensViewController.m */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		4CB877E5A369B444EDFEC5DB /* Pods_Geneve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */; };
 		750A6586202EF8C1006BA4A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */; };
+		7526DCC7203E09E6002A4FE0 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCC6203E09E6002A4FE0 /* MoreTableViewController.swift */; };
 		753A4E3E0FFD536400A38D60 /* communes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 753A4E3D0FFD536400A38D60 /* communes.sqlite */; };
 		753A4EA70FFD5BD500A38D60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753A4EA60FFD5BD500A38D60 /* MapKit.framework */; };
 		753A4ED00FFD5CB700A38D60 /* CommunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A4ECF0FFD5CB700A38D60 /* CommunesViewController.m */; };
@@ -37,8 +38,10 @@
 		28216C960DB411BC00E5133A /* LiensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiensViewController.m; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* Geneve_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geneve_Prefix.pch; sourceTree = "<group>"; };
+		6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geneve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		7526DCC5203CC381002A4FE0 /* Geneve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geneve.entitlements; sourceTree = "<group>"; };
+		7526DCC6203E09E6002A4FE0 /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		753A4E3D0FFD536400A38D60 /* communes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = communes.sqlite; sourceTree = "<group>"; };
 		753A4E9E0FFD573B00A38D60 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		753A4EA60FFD5BD500A38D60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -61,7 +64,6 @@
 		75CF987A2038758F00473312 /* LienCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LienCell.h; sourceTree = "<group>"; };
 		75CF987B2038758F00473312 /* LienCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LienCell.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Geneve-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geneve-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		9D4BA7DC70DD397A87248DC4 /* libPods-Geneve.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Geneve.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE58752633B339C193BE5E43 /* Pods-Geneve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geneve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Geneve/Pods-Geneve.debug.xcconfig"; sourceTree = "<group>"; };
 		DECB8C70941D1C3FBC746829 /* Pods-Geneve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geneve.release.xcconfig"; path = "Pods/Target Support Files/Pods-Geneve/Pods-Geneve.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +79,7 @@
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
 				753A4EA70FFD5BD500A38D60 /* MapKit.framework in Frameworks */,
 				7569FD05100D2D1300D9CE54 /* QuartzCore.framework in Frameworks */,
-				0764A795DF670B0A0CB88901 /* libPods-Geneve.a in Frameworks */,
+				4CB877E5A369B444EDFEC5DB /* Pods_Geneve.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +98,7 @@
 				7569FA6E100BC50600D9CE54 /* PhonebookController.h */,
 				7569FA6F100BC50600D9CE54 /* PhonebookController.m */,
 				75CF987820386FC700473312 /* AboutViewController.swift */,
+				7526DCC6203E09E6002A4FE0 /* MoreTableViewController.swift */,
 			);
 			name = Views;
 			path = Classes/Views;
@@ -147,7 +150,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
-				9D4BA7DC70DD397A87248DC4 /* libPods-Geneve.a */,
+				6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,9 +304,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Geneve/Pods-Geneve-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESOpenSourceLicensesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -318,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CF987420385A2C00473312 /* AppDelegate.swift in Sources */,
+				7526DCC7203E09E6002A4FE0 /* MoreTableViewController.swift in Sources */,
 				28216C970DB411BC00E5133A /* LiensViewController.m in Sources */,
 				753A4ED00FFD5CB700A38D60 /* CommunesViewController.m in Sources */,
 				75CF987920386FC700473312 /* AboutViewController.swift in Sources */,

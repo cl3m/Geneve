@@ -1,12 +1,18 @@
 PODS:
+  - ESOpenSourceLicensesKit (2.0)
+  - FeedKit (7.0.1)
   - GoogleAnalytics (3.17.0)
 
 DEPENDENCIES:
+  - ESOpenSourceLicensesKit (~> 2.0)
+  - FeedKit (~> 7.0)
   - GoogleAnalytics (~> 3.17)
 
 SPEC CHECKSUMS:
+  ESOpenSourceLicensesKit: 6fde2f56b9a7a52cc298b594786d369ac1602ce0
+  FeedKit: 9be69ab57ef0eb922ee4b6c31cb6b8840a5bbb29
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
 
-PODFILE CHECKSUM: 70ab5f128bfa8100f529f8166923deca16f3a8ae
+PODFILE CHECKSUM: 27c3d3fdc285836595c0e77718e060f6ebf4f832
 
 COCOAPODS: 1.4.0
