@@ -24,6 +24,8 @@
 
 import UIKit
 import FeedKit
+import HTMLString
+import Regex
 
 let feedURL = URL(string: "https://www.ge.ch/rss-publications?titre=&type=86")!
 
@@ -48,6 +50,14 @@ class FeedTableViewController: GAITableViewController {
         }
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let controller = segue.destination as? FeedDetailTableViewController, let item = sender as? RSSFeedItem {
+            controller.itemTitle = item.title?.removingHTMLEntities ?? ""
+            controller.itemDate = Regex("<span[^>]*date-display-single[^>]*>[^ ]* ([^,]*),").firstMatch(in: item.description?.removingHTMLEntities ?? "")?.captures[0] ?? ""
+            controller.itemDescription = ("<style>body {font-size:1.5em;}</style>"+(item.description ?? "")).replacingFirst(matching: "<span[^>]*date-display-single[^>]*>([^<]*)</span>", with: "").htmlToAttributedString
+        }
+    }
 
 }
 
@@ -62,9 +72,8 @@ extension FeedTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = reusableCell()
-        let item = feed?.items?[indexPath.row]
-        cell.textLabel?.text = item?.title?.htmlToString ?? "[no title]" //very slow
+        let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath) as! FeedCell
+        cell.configure(with: feed!.items![indexPath.row])
         return cell
     }
     
@@ -74,10 +83,6 @@ extension FeedTableViewController {
 
 extension FeedTableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let item = feed?.items?[indexPath.row]
-        let title = item?.title?.htmlToString ?? "Actualité"
-        let attributedText = item?.description?.htmlToAttributedString
-        let viewController = FeedDetailTableViewController(title: title, attributedText: attributedText)
-        navigationController?.pushViewController(viewController, animated: true)
+        performSegue(withIdentifier: "showNews", sender: feed!.items![indexPath.row])
     }
 }

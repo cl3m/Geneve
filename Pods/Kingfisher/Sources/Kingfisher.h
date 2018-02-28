@@ -1,7 +1,10 @@
 //
-//  FeedTableViewController + ReusableCell.swift
+//  Kingfisher.h
+//  Kingfisher
 //
-//  Copyright (c) 2017 Nuno Manuel Dias
+//  Created by Wei Wang on 15/4/6.
+//
+//  Copyright (c) 2018 Wei Wang <onevcat@gmail.com>
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -10,26 +13,25 @@
 //  copies of the Software, and to permit persons to whom the Software is
 //  furnished to do so, subject to the following conditions:
 //
-//  The above copyright notice and this permission notice shall be included in all
-//  copies or substantial portions of the Software.
+//  The above copyright notice and this permission notice shall be included in
+//  all copies or substantial portions of the Software.
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 //  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 //  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 //  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//  SOFTWARE.
-//
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+//  THE SOFTWARE.
 
-import UIKit
+#import <Foundation/Foundation.h>
 
-extension FeedTableViewController {
-    func reusableCell() -> UITableViewCell {
-        let reuseIdentifier = "Cell"
-        if let cell = self.tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) { return cell }
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: reuseIdentifier)
-        cell.accessoryType = .disclosureIndicator
-        return cell
-    }
-}
+//! Project version number for Kingfisher.
+FOUNDATION_EXPORT double KingfisherVersionNumber;
+
+//! Project version string for Kingfisher.
+FOUNDATION_EXPORT const unsigned char KingfisherVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <Kingfisher/PublicHeader.h>
+
+

@@ -6,6 +6,9 @@ target "Geneve" do
     pod 'GoogleAnalytics', '~> 3.17'
     pod 'FeedKit', '~> 7.0'
     pod 'ESOpenSourceLicensesKit', '~> 2.0'
+    pod 'HTMLString', '~> 4.0'
+    pod "STRegex", "~> 1.1"
+    pod 'Kingfisher', '~> 4.6'
 end
 
 post_install do |installer_representation|

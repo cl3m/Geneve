@@ -13,10 +13,10 @@
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		4CB877E5A369B444EDFEC5DB /* Pods_Geneve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */; };
 		750A6586202EF8C1006BA4A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */; };
+		751B7245204743EF003766DD /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B7244204743EF003766DD /* FeedCell.swift */; };
 		7526DCCE203E1102002A4FE0 /* FeedDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCCC203E1102002A4FE0 /* FeedDetailTableViewController.swift */; };
 		7526DCCF203E1102002A4FE0 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCCD203E1102002A4FE0 /* FeedTableViewController.swift */; };
 		7526DCD6203E11EB002A4FE0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCD5203E11EB002A4FE0 /* Extensions.swift */; };
-		7526DCDB203E1DBA002A4FE0 /* FeedTableViewController + ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCD9203E1DBA002A4FE0 /* FeedTableViewController + ReusableCell.swift */; };
 		753A4E3E0FFD536400A38D60 /* communes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 753A4E3D0FFD536400A38D60 /* communes.sqlite */; };
 		753A4EA70FFD5BD500A38D60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753A4EA60FFD5BD500A38D60 /* MapKit.framework */; };
 		753A4ED00FFD5CB700A38D60 /* CommunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A4ECF0FFD5CB700A38D60 /* CommunesViewController.m */; };
@@ -43,11 +43,11 @@
 		28A0AB4B0D9B1048005BE974 /* Geneve_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geneve_Prefix.pch; sourceTree = "<group>"; };
 		6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geneve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		751B7244204743EF003766DD /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		7526DCC5203CC381002A4FE0 /* Geneve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geneve.entitlements; sourceTree = "<group>"; };
 		7526DCCC203E1102002A4FE0 /* FeedDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailTableViewController.swift; sourceTree = "<group>"; };
 		7526DCCD203E1102002A4FE0 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		7526DCD5203E11EB002A4FE0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		7526DCD9203E1DBA002A4FE0 /* FeedTableViewController + ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FeedTableViewController + ReusableCell.swift"; sourceTree = "<group>"; };
 		753A4E3D0FFD536400A38D60 /* communes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = communes.sqlite; sourceTree = "<group>"; };
 		753A4E9E0FFD573B00A38D60 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		753A4EA60FFD5BD500A38D60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -112,7 +112,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* Genève */ = {
+		29B97314FDCFA39411CA2CEA = {
 			isa = PBXGroup;
 			children = (
 				75CF987E203878DC00473312 /* Geneve */,
@@ -168,9 +168,9 @@
 		7526DCD0203E1109002A4FE0 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				7526DCD9203E1DBA002A4FE0 /* FeedTableViewController + ReusableCell.swift */,
 				7526DCCC203E1102002A4FE0 /* FeedDetailTableViewController.swift */,
 				7526DCCD203E1102002A4FE0 /* FeedTableViewController.swift */,
+				751B7244204743EF003766DD /* FeedCell.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 				French,
 				German,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* Genève */;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -348,11 +348,17 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Geneve/Pods-Geneve-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/HTMLString/HTMLString.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESOpenSourceLicensesKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMLString.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CF987420385A2C00473312 /* AppDelegate.swift in Sources */,
+				751B7245204743EF003766DD /* FeedCell.swift in Sources */,
 				7526DCCF203E1102002A4FE0 /* FeedTableViewController.swift in Sources */,
 				28216C970DB411BC00E5133A /* LiensViewController.m in Sources */,
 				7526DCCE203E1102002A4FE0 /* FeedDetailTableViewController.swift in Sources */,
@@ -374,7 +381,6 @@
 				75CF987920386FC700473312 /* AboutViewController.swift in Sources */,
 				7569F839100A746800D9CE54 /* Commune.m in Sources */,
 				75CF987C2038758F00473312 /* LienCell.m in Sources */,
-				7526DCDB203E1DBA002A4FE0 /* FeedTableViewController + ReusableCell.swift in Sources */,
 				7569FA70100BC50600D9CE54 /* PhonebookController.m in Sources */,
 				753B692C1039E9B000C5CD02 /* Lien.m in Sources */,
 				7526DCD6203E11EB002A4FE0 /* Extensions.swift in Sources */,
