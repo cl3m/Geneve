@@ -14,6 +14,7 @@
 		4CB877E5A369B444EDFEC5DB /* Pods_Geneve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */; };
 		750A6586202EF8C1006BA4A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */; };
 		751B7245204743EF003766DD /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B7244204743EF003766DD /* FeedCell.swift */; };
+		751B724820475CCE003766DD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B724720475CCE003766DD /* MapViewController.swift */; };
 		7526DCCE203E1102002A4FE0 /* FeedDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCCC203E1102002A4FE0 /* FeedDetailTableViewController.swift */; };
 		7526DCCF203E1102002A4FE0 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCCD203E1102002A4FE0 /* FeedTableViewController.swift */; };
 		7526DCD6203E11EB002A4FE0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526DCD5203E11EB002A4FE0 /* Extensions.swift */; };
@@ -44,6 +45,7 @@
 		6AA4473159702DA4C2960D93 /* Pods_Geneve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geneve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750A6585202EF8C1006BA4A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		751B7244204743EF003766DD /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		751B724720475CCE003766DD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7526DCC5203CC381002A4FE0 /* Geneve.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geneve.entitlements; sourceTree = "<group>"; };
 		7526DCCC203E1102002A4FE0 /* FeedDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailTableViewController.swift; sourceTree = "<group>"; };
 		7526DCCD203E1102002A4FE0 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				7526DCD0203E1109002A4FE0 /* News */,
 				7526DCD2203E111C002A4FE0 /* Links */,
 				7526DCD3203E112D002A4FE0 /* Phonebook */,
+				751B724620475CB0003766DD /* Map */,
 				7526DCD4203E1141002A4FE0 /* More */,
 			);
 			name = Views;
@@ -112,7 +115,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* Genève */ = {
 			isa = PBXGroup;
 			children = (
 				75CF987E203878DC00473312 /* Geneve */,
@@ -163,6 +166,14 @@
 				DECB8C70941D1C3FBC746829 /* Pods-Geneve.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		751B724620475CB0003766DD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				751B724720475CCE003766DD /* MapViewController.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		7526DCD0203E1109002A4FE0 /* News */ = {
@@ -280,7 +291,7 @@
 				French,
 				German,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Genève */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -378,6 +389,7 @@
 				28216C970DB411BC00E5133A /* LiensViewController.m in Sources */,
 				7526DCCE203E1102002A4FE0 /* FeedDetailTableViewController.swift in Sources */,
 				753A4ED00FFD5CB700A38D60 /* CommunesViewController.m in Sources */,
+				751B724820475CCE003766DD /* MapViewController.swift in Sources */,
 				75CF987920386FC700473312 /* AboutViewController.swift in Sources */,
 				7569F839100A746800D9CE54 /* Commune.m in Sources */,
 				75CF987C2038758F00473312 /* LienCell.m in Sources */,
