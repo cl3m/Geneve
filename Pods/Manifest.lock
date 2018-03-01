@@ -1,9 +1,12 @@
 PODS:
+  - AEXML (4.1.0)
   - ESOpenSourceLicensesKit (2.0)
   - FeedKit (7.0.1)
   - GoogleAnalytics (3.17.0)
   - HTMLString (4.0.1)
   - Kingfisher (4.6.2)
+  - Kml.swift (0.3.0):
+    - AEXML (= 4.1.0)
   - STRegex (1.1.0)
 
 DEPENDENCIES:
@@ -12,16 +15,28 @@ DEPENDENCIES:
   - GoogleAnalytics (~> 3.17)
   - HTMLString (~> 4.0)
   - Kingfisher (~> 4.6)
+  - Kml.swift (from `https://github.com/elikohen/Kml.swift.git`)
   - STRegex (~> 1.1)
 
+EXTERNAL SOURCES:
+  Kml.swift:
+    :git: https://github.com/elikohen/Kml.swift.git
+
+CHECKOUT OPTIONS:
+  Kml.swift:
+    :commit: 10f4718e64d2cc241090dabb01565866659eb87a
+    :git: https://github.com/elikohen/Kml.swift.git
+
 SPEC CHECKSUMS:
+  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
   ESOpenSourceLicensesKit: 6fde2f56b9a7a52cc298b594786d369ac1602ce0
   FeedKit: 9be69ab57ef0eb922ee4b6c31cb6b8840a5bbb29
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
   HTMLString: 8d9a8a8aaf63dd52c5b8cd9a38e14da52f753210
   Kingfisher: 55b9c395bf8d3949676ad3861111923990ab68cf
+  Kml.swift: f9ad5dcd7f899a1d101fdff25992a929862dd057
   STRegex: eb1f4c2fe9e2f0265b8df8634774cd8cd8914018
 
-PODFILE CHECKSUM: f72f62a5419d092f699c6c46b4a2ecb1b287554e
+PODFILE CHECKSUM: b69e7c0de95af1f755e2eecab9bfda2b4840fd96
 
 COCOAPODS: 1.4.0

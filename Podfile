@@ -7,8 +7,9 @@ target "Geneve" do
     pod 'FeedKit', '~> 7.0'
     pod 'ESOpenSourceLicensesKit', '~> 2.0'
     pod 'HTMLString', '~> 4.0'
-    pod "STRegex", "~> 1.1"
+    pod 'STRegex', '~> 1.1'
     pod 'Kingfisher', '~> 4.6'
+    pod 'Kml.swift', :git => 'https://github.com/elikohen/Kml.swift.git'
 end
 
 post_install do |installer_representation|

@@ -134,17 +134,21 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HTMLString/HTMLString.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kml.swift/Kml_swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HTMLString/HTMLString.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kml.swift/Kml_swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Carte-->
+        <!--Map-->
         <scene sceneID="ucZ-bH-xfA">
             <objects>
-                <viewController id="ttX-qH-YZz" customClass="MapViewController" customModule="Geneve" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Map" id="ttX-qH-YZz" customClass="MapViewController" customModule="Geneve" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0WY-vg-c3r"/>
                         <viewControllerLayoutGuide type="bottom" id="eg4-L1-4Bs"/>
@@ -50,28 +50,62 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ggi-yn-0H3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="X47-gd-tbQ">
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="X47-gd-tbQ">
                                         <rect key="frame" x="0.0" y="20" width="375" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="C3v-NQ-Dpt"/>
                                         </constraints>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="47y-G6-3dW">
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="47y-G6-3dW">
                                             <size key="itemSize" width="100" height="40"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="B4K-x4-cOx">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mapCell" id="B4K-x4-cOx" customClass="MapCell" customModule="Geneve" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="0.0" width="100" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTK-Dt-1oB">
+                                                            <rect key="frame" x="0.0" y="5" width="100" height="30"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghE-bA-kKw">
+                                                            <rect key="frame" x="10" y="0.0" width="80" height="40"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="40" id="o8B-aK-H30"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
                                                 </view>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="HTK-Dt-1oB" firstAttribute="leading" secondItem="B4K-x4-cOx" secondAttribute="leading" id="22O-D2-yKC"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ghE-bA-kKw" secondAttribute="trailing" constant="10" id="8Mv-Bc-mcv"/>
+                                                    <constraint firstAttribute="trailing" secondItem="HTK-Dt-1oB" secondAttribute="trailing" id="LUo-zu-v0f"/>
+                                                    <constraint firstItem="ghE-bA-kKw" firstAttribute="leading" secondItem="B4K-x4-cOx" secondAttribute="leading" constant="10" id="NNx-AJ-P6c"/>
+                                                    <constraint firstItem="ghE-bA-kKw" firstAttribute="top" secondItem="B4K-x4-cOx" secondAttribute="top" id="T3P-eA-BCC"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ghE-bA-kKw" secondAttribute="bottom" id="Xt3-se-NgY"/>
+                                                    <constraint firstItem="HTK-Dt-1oB" firstAttribute="top" secondItem="B4K-x4-cOx" secondAttribute="top" constant="5" id="eL4-1h-aMI"/>
+                                                    <constraint firstAttribute="bottom" secondItem="HTK-Dt-1oB" secondAttribute="bottom" constant="5" id="uWz-lM-di5"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="cornerView" destination="HTK-Dt-1oB" id="tVL-VV-gvm"/>
+                                                    <outlet property="nameLabel" destination="ghE-bA-kKw" id="gpL-eu-aJt"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="ttX-qH-YZz" id="Stc-Fn-3Sv"/>
+                                            <outlet property="delegate" destination="ttX-qH-YZz" id="10V-uP-mg3"/>
+                                        </connections>
                                     </collectionView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56t-mo-C1v">
                                         <rect key="frame" x="0.0" y="59" width="375" height="1"/>
@@ -108,6 +142,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Carte" image="map-off" selectedImage="map-on" id="OAL-1Y-dvr"/>
+                    <connections>
+                        <outlet property="collectionView" destination="X47-gd-tbQ" id="kdI-jl-ul6"/>
+                        <outlet property="mapView" destination="Ezv-gD-ZqV" id="M8E-Hu-46A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZL-1o-mfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,14 +303,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="maH-sb-OtX">
-                                                    <rect key="frame" x="15" y="15" width="345" height="20.5"/>
+                                                    <rect key="frame" x="15" y="15" width="570" height="20.5"/>
                                                     <color key="tintColor" red="0.85216587779999997" green="0.2325378656" blue="0.1226473376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPu-Ne-a13">
-                                                    <rect key="frame" x="15" y="30.5" width="345" height="31.5"/>
+                                                    <rect key="frame" x="15" y="30.5" width="570" height="31.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -355,12 +393,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8W-4Z-I91">
-                                <rect key="frame" x="30" y="146" width="315" height="142.5"/>
+                                <rect key="frame" x="30" y="146" width="315" height="203"/>
                                 <string key="text">Source Actualités :
 ge.ch, Flux Communiqués de presse
 
 Source Carte :
-Système d'information du territoire à Genève (SITG), extrait en date du 21.02.2018</string>
+Système d'information du territoire à Genève (SITG), extrait en date du 21.02.2018
+
+Source borne Wifi: ville-geneve.ch ((o)) ville-geneve</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -665,5 +705,5 @@ N'hésitez pas à y soumettre vos idées ou directement vos améliorations.</str
         <image name="phone-on" width="30" height="30"/>
         <image name="shield-off" width="30" height="30"/>
     </resources>
-    <color key="tintColor" red="0.85216587781906128" green="0.23253786563873291" blue="0.12264733761548996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <color key="tintColor" red="0.85098039215686272" green="0.23137254901960785" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

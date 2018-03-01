@@ -26,6 +26,9 @@
 		7569F839100A746800D9CE54 /* Commune.m in Sources */ = {isa = PBXBuildFile; fileRef = 7569F838100A746800D9CE54 /* Commune.m */; };
 		7569FA70100BC50600D9CE54 /* PhonebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7569FA6F100BC50600D9CE54 /* PhonebookController.m */; };
 		7569FD05100D2D1300D9CE54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7569FD04100D2D1300D9CE54 /* QuartzCore.framework */; };
+		75B390E720486F7D006B7A7B /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B390E620486F7D006B7A7B /* MapCell.swift */; };
+		75B390E9204893FB006B7A7B /* Genève.kml in Resources */ = {isa = PBXBuildFile; fileRef = 75B390E8204893FB006B7A7B /* Genève.kml */; };
+		75B390ED2048AFC5006B7A7B /* KML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B390EC2048AFC5006B7A7B /* KML.swift */; };
 		75CF986F203859F900473312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF986E203859F800473312 /* Main.storyboard */; };
 		75CF987120385A0B00473312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF987020385A0A00473312 /* LaunchScreen.storyboard */; };
 		75CF987420385A2C00473312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF987320385A2B00473312 /* AppDelegate.swift */; };
@@ -63,6 +66,9 @@
 		7569FA6E100BC50600D9CE54 /* PhonebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonebookController.h; sourceTree = "<group>"; };
 		7569FA6F100BC50600D9CE54 /* PhonebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhonebookController.m; sourceTree = "<group>"; };
 		7569FD04100D2D1300D9CE54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75B390E620486F7D006B7A7B /* MapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
+		75B390E8204893FB006B7A7B /* Genève.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Genève.kml"; sourceTree = "<group>"; };
+		75B390EC2048AFC5006B7A7B /* KML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KML.swift; sourceTree = "<group>"; };
 		75CF986E203859F800473312 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75CF987020385A0A00473312 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75CF987220385A2B00473312 /* Geneve-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geneve-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -115,7 +121,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* Genève */ = {
+		29B97314FDCFA39411CA2CEA = {
 			isa = PBXGroup;
 			children = (
 				75CF987E203878DC00473312 /* Geneve */,
@@ -129,6 +135,7 @@
 		29B97315FDCFA39411CA2CEA /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				75B390E8204893FB006B7A7B /* Genève.kml */,
 				7526DCC5203CC381002A4FE0 /* Geneve.entitlements */,
 				75CF987520385A4E00473312 /* Images.xcassets */,
 				753B69281039E86300C5CD02 /* liens.sqlite */,
@@ -171,7 +178,9 @@
 		751B724620475CB0003766DD /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				75B390EC2048AFC5006B7A7B /* KML.swift */,
 				751B724720475CCE003766DD /* MapViewController.swift */,
+				75B390E620486F7D006B7A7B /* MapCell.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -291,7 +300,7 @@
 				French,
 				German,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* Genève */;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -311,6 +320,7 @@
 				75CF986F203859F900473312 /* Main.storyboard in Resources */,
 				75CF987620385A4E00473312 /* Images.xcassets in Resources */,
 				753B69291039E86300C5CD02 /* liens.sqlite in Resources */,
+				75B390E9204893FB006B7A7B /* Genève.kml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,18 +367,22 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Geneve/Pods-Geneve-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
 				"${BUILT_PRODUCTS_DIR}/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
 				"${BUILT_PRODUCTS_DIR}/HTMLString/HTMLString.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Kml.swift/Kml_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESOpenSourceLicensesKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMLString.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kml_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +409,8 @@
 				75CF987C2038758F00473312 /* LienCell.m in Sources */,
 				7569FA70100BC50600D9CE54 /* PhonebookController.m in Sources */,
 				753B692C1039E9B000C5CD02 /* Lien.m in Sources */,
+				75B390ED2048AFC5006B7A7B /* KML.swift in Sources */,
+				75B390E720486F7D006B7A7B /* MapCell.swift in Sources */,
 				7526DCD6203E11EB002A4FE0 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
