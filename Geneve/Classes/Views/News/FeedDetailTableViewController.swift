@@ -23,14 +23,16 @@
 //
 
 import UIKit
+import SafariServices
 
-class FeedDetailTableViewController: UITableViewController {
+class FeedDetailTableViewController: UITableViewController, SFSafariViewControllerDelegate {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var descriptionLabel: UILabel!
     
     var itemTitle: String!
     var itemDate: String!
     var itemDescription: NSAttributedString!
+    var itemURL: URL!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,11 +41,34 @@ class FeedDetailTableViewController: UITableViewController {
         descriptionLabel.attributedText = itemDescription
     }
     
+    @IBAction func share(_ sender: UIView) {
+        let activityVC = UIActivityViewController(activityItems: [itemURL], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = sender
+        present(activityVC, animated: true, completion: nil)
+    }
+    
+    //MARK: - UITableViewController
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
     
     override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return super.tableView(tableView, heightForRowAt: indexPath)
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if indexPath.row == 1 {
+            let viewController = SFSafariViewController(url: itemURL)
+            viewController.delegate = self
+            present(viewController, animated: true, completion: nil)
+        }
+    }
+    
+    //MARK: - SFSafariViewControllerDelegate
+    
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        dismiss(animated: true, completion: nil)
     }
 }

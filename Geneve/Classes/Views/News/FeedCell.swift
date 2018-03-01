@@ -24,10 +24,7 @@ class FeedCell: UITableViewCell {
             dateLabel?.text = nil
         }
         
-        if let url = Regex("<img[^>]*src=\"([^\"]*)\"[^>]*>").firstMatch(in: item.description?.removingHTMLEntities ?? "")?.captures[0].flatMap({URL(string: $0)}) {
-            thumbnailImageView?.kf.setImage(with: url, placeholder: UIImage(named: "geneva"))
-        } else {
-            thumbnailImageView?.kf.setImage(with: nil, placeholder: UIImage(named: "geneva"))
-        }
+        let url = Regex("<img[^>]*src=\"([^\"]*)\"[^>]*>").firstMatch(in: item.description?.removingHTMLEntities ?? "")?.captures[0].flatMap({URL(string: $0)}) 
+        thumbnailImageView?.kf.setImage(with: url, placeholder: UIImage())
     }
 }

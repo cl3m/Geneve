@@ -56,6 +56,7 @@ class FeedTableViewController: GAITableViewController {
             controller.itemTitle = item.title?.removingHTMLEntities ?? ""
             controller.itemDate = Regex("<span[^>]*date-display-single[^>]*>[^ ]* ([^,]*),").firstMatch(in: item.description?.removingHTMLEntities ?? "")?.captures[0] ?? ""
             controller.itemDescription = ("<style>body {font-size:1.5em;}</style>"+(item.description ?? "")).replacingFirst(matching: "<span[^>]*date-display-single[^>]*>([^<]*)</span>", with: "").htmlToAttributedString
+            controller.itemURL = URL(string: item.link!)
         }
     }
 
