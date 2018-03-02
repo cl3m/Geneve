@@ -12,11 +12,13 @@ N'hésitez pas à y soumettre vos idées ou directement vos améliorations.
 
 Si vous savez développer ou consevoir mais manquez d'idée, voici quelques suggestions:
 
-* Migration Swift ou réecriture en React Native
+* Migration Swift ou réecriture en React Native ou Flutter
 * Suppression des fichiers sqlites pour un format plus facilement éditable sur GitHub
 * Nouveau design
 * Multilangues
 * Ajout d'un onglet *Apps*
+* Rajouter des données sur la carte (opendata http://ge.ch/sitg/sitg_catalog/sitg_donnees)
+* Ajout d'un cache sur le flux rss
 
 
 ## Licence
