@@ -33,13 +33,13 @@ class FeedTableViewController: GAITableViewController {
     
     var feed: RSSFeed?
     
-    let parser = FeedParser(URL: feedURL)!
+    let parser = FeedParser(URL: feedURL)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Parse asynchronously, not to block the UI.
-        parser.parseAsync { [weak self] (result) in
+        parser?.parseAsync { [weak self] (result) in
             self?.feed = result.rssFeed
             
             // Then back to the Main thread to update the UI.
