@@ -1,6 +1,6 @@
 {
   "name": "Kml.swift",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "Simple KML parser for Swift.",
   "homepage": "https://github.com/asus4/Kml.swift",
   "license": {
@@ -12,16 +12,16 @@
   },
   "social_media_url": "https://twitter.com/asus4",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source": {
     "git": "https://github.com/asus4/Kml.swift.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "source_files": "Source/*.swift",
   "dependencies": {
     "AEXML": [
-      "4.1.0"
+      "4.4.0"
     ]
   }
 }

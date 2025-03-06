@@ -9,7 +9,7 @@
 #import "LiensViewController.h"
 #import "Lien.h"
 #import "LienCell.h"
-
+#import <GoogleAnalytics/GoogleAnalytics-umbrella.h>
 
 sqlite3 *database2;
 

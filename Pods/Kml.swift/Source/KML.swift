@@ -47,7 +47,7 @@ public struct KMLConfig {
         KMLTag.Polygon.str: KMLPolygon.self,
         KMLTag.LineString.str: KMLLineString.self,
         KMLTag.Point.str: KMLPoint.self,
-        KMLTag.Folder.str: KMLFolder.self,
+        KMLTag.Folder.str: KMLElement.self,
         KMLTag.Placemark.str: KMLPlacemark.self,
         KMLTag.Icon.str: KMLIcon.self,
         KMLTag.IconStyle.str: KMLIconStyle.self
@@ -422,26 +422,6 @@ open class KMLPlacemark: KMLElement {
     }
 }
 
-// MARK: - Folder
-
-open class KMLFolder: KMLElement {
-    open var description: String = ""
-    open var annotations: [KMLAnnotation] = []
-    open var placemarks: [KMLPlacemark] = []
-
-    public required init(_ element: AEXMLElement) {
-        let _description: AEXMLElement = element["name"]
-        if element.error == nil {
-            description = _description.string
-        }
-        super.init(element)
-        
-        if let placemarksGeometry = findElements(KMLPlacemark.self) {
-            placemarks = placemarksGeometry
-        }
-    }
-}
-
 // MARK: - MapKit bridge
 
 public protocol KMLOverlay: MKOverlay {
@@ -500,19 +480,17 @@ open class KMLOverlayPolyline: MKPolyline, KMLOverlay {
 
 open class KMLDocument: KMLElement {
     open var overlays: [MKOverlay] = []
+    open var annotations: [KMLAnnotation] = []
     open var styles: [String: KMLStyle] = [:]
-    open var folders: [KMLFolder] = []
-    
+    open var placemarks: [KMLPlacemark] = []
 
     public required init(_ element: AEXMLElement) {
         super.init(element)
         initStyle()
-        folders = findElements(KMLFolder.self)
-        for folder in folders {
-            for placemark in folder.placemarks {
-                if let foundStyle = findStyle(forPlacemark: placemark) {
-                    placemark.style = foundStyle
-                }
+        placemarks = findElements(KMLPlacemark.self)
+        for placemark in placemarks {
+            if let foundStyle = findStyle(forPlacemark: placemark) {
+                placemark.style = foundStyle
             }
         }
     }
@@ -569,7 +547,7 @@ open class KMLDocument: KMLElement {
     }
 
     fileprivate func initOverlay() {
-        for placemark: KMLPlacemark in folders.flatMap({ $0.placemarks }) {
+        for placemark: KMLPlacemark in placemarks {
 
             var overlays: [KMLOverlay] = []
 
@@ -608,15 +586,14 @@ open class KMLDocument: KMLElement {
     }
 
     fileprivate func initAnnotation() {
-        for folder in folders {
-            for pointPlacemark in folder.placemarks {
-                if let point: KMLPoint = pointPlacemark.point {
-                    let annotation = KMLAnnotation(point.coordinates)
-                    //annotation.title = pointPlacemark.name
-                    //annotation.subtitle = pointPlacemark.description
-                    //annotation.style = pointPlacemark.style
-                    folder.annotations.append(annotation)
-                }
+        for pointPlacemark: KMLPlacemark in placemarks {
+            if let point: KMLPoint = pointPlacemark.point {
+                let annotation = KMLAnnotation(point.coordinates)
+                annotation.title = pointPlacemark.name
+                annotation.subtitle = pointPlacemark.description
+                annotation.style = pointPlacemark.style
+
+                self.annotations.append(annotation)
             }
         }
     }
