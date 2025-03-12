@@ -1,22 +1,46 @@
 PODS:
-  - AEXML (4.1.0)
+  - AEXML (4.4.0)
   - ESOpenSourceLicensesKit (2.0)
-  - FeedKit (7.0.1)
-  - GoogleAnalytics (3.17.0)
+  - FeedKit (9.1.2)
+  - GoogleAnalytics (3.23.0):
+    - GoogleUtilities/UserDefaults (~> 7.11)
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/UserDefaults (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
   - HTMLString (4.0.1)
-  - Kingfisher (4.6.2)
-  - Kml.swift (0.3.0):
-    - AEXML (= 4.1.0)
-  - STRegex (1.1.0)
+  - Kingfisher (8.2.0)
+  - Kml.swift (0.4.0):
+    - AEXML (= 4.4.0)
+  - PromisesObjC (2.4.0)
+  - STRegex (2.1.1)
 
 DEPENDENCIES:
   - ESOpenSourceLicensesKit (~> 2.0)
-  - FeedKit (~> 7.0)
-  - GoogleAnalytics (~> 3.17)
+  - FeedKit (~> 9.1.2)
+  - GoogleAnalytics (~> 3.23.0)
   - HTMLString (~> 4.0)
-  - Kingfisher (~> 4.6)
+  - Kingfisher (~> 8.2.0)
   - Kml.swift (from `https://github.com/elikohen/Kml.swift.git`)
-  - STRegex (~> 1.1)
+  - STRegex (~> 2.1.1)
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - ESOpenSourceLicensesKit
+    - FeedKit
+    - GoogleAnalytics
+    - GoogleUtilities
+    - HTMLString
+    - Kingfisher
+    - PromisesObjC
+    - STRegex
 
 EXTERNAL SOURCES:
   Kml.swift:
@@ -24,19 +48,21 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Kml.swift:
-    :commit: 10f4718e64d2cc241090dabb01565866659eb87a
+    :commit: 2c3f112c3a4e189a6b8a099c922037d1916abe16
     :git: https://github.com/elikohen/Kml.swift.git
 
 SPEC CHECKSUMS:
-  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
+  AEXML: 16fb739dfb3809e91ebf9e9dc391482c3a6aaebf
   ESOpenSourceLicensesKit: 6fde2f56b9a7a52cc298b594786d369ac1602ce0
-  FeedKit: 9be69ab57ef0eb922ee4b6c31cb6b8840a5bbb29
-  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  FeedKit: 71653273ab08e618cd6fd1301ca08fc02dca6a9e
+  GoogleAnalytics: 9e360c5cfffa536ff64dc383bc468577b7ba5c5d
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   HTMLString: 8d9a8a8aaf63dd52c5b8cd9a38e14da52f753210
-  Kingfisher: 55b9c395bf8d3949676ad3861111923990ab68cf
-  Kml.swift: f9ad5dcd7f899a1d101fdff25992a929862dd057
-  STRegex: eb1f4c2fe9e2f0265b8df8634774cd8cd8914018
+  Kingfisher: 323e5c4ec7983aaace12af655a7b51a7f88a599d
+  Kml.swift: a429057844fd35c55fb37be58da2e71537641fe8
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  STRegex: d49e88d0fe58538d3175fdd989bc1243b9be2a07
 
-PODFILE CHECKSUM: b69e7c0de95af1f755e2eecab9bfda2b4840fd96
+PODFILE CHECKSUM: 74267d5cd1fd171ba70cc2e2e996cd435a52c504
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.15.2

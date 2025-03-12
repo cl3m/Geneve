@@ -27,7 +27,7 @@ import FeedKit
 import HTMLString
 import Regex
 
-let feedURL = URL(string: "https://www.ge.ch/rss-publications?titre=&type=86")!
+let feedURL = URL(string: "https://www.ge.ch/rss/publication?type=460")!
 
 class FeedTableViewController: GAITableViewController {
     
@@ -39,9 +39,13 @@ class FeedTableViewController: GAITableViewController {
         super.viewDidLoad()
         
         // Parse asynchronously, not to block the UI.
-        parser?.parseAsync { [weak self] (result) in
-            self?.feed = result.rssFeed
-            
+        parser.parseAsync { [weak self] (result) in
+            switch result {
+            case .success(let feed):
+                self?.feed = feed.rssFeed
+            case .failure(let error):
+                print(error)
+            }
             // Then back to the Main thread to update the UI.
             DispatchQueue.main.async {
                 self?.tableView.reloadData()

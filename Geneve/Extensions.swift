@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import GoogleAnalytics
 
 extension GAI {
     static func trackScreen(_ name: String) {
