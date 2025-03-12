@@ -17,7 +17,6 @@
 				0FCF7399654D3C4F35CBE47C2780454E /* PBXTargetDependency */,
 			);
 			name = GoogleAnalytics;
-			productName = GoogleAnalytics;
 		};
 /* End PBXAggregateTarget section */
 
@@ -44,10 +43,10 @@
 		12AFEA1AC57FE41F85A048562978A9CD /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75371F32D84AC9B380F1849F3A129D2 /* SessionDataTask.swift */; };
 		131E7BBE1A37C4006D762784065CB148 /* KFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FF60E786F66D8F8276BA63D684B477 /* KFAnimatedImage.swift */; };
 		136555BA0DE5C58EC7378E6C4E9BDBC2 /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620ACB1DA7C22F283AA1BC1E2430FBE5 /* ImageProgressive.swift */; };
-		1413CF45F8FE6FFBD1583A7AA91E26B2 /* GoogleUtilities_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */; };
+		1413CF45F8FE6FFBD1583A7AA91E26B2 /* GoogleUtilities-GoogleUtilities_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */; };
 		1573DFE72EAA59825803F92EC2F19FBF /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919690D2F9B4C5F3BC26A0D70A3A21CB /* ImageView+Kingfisher.swift */; };
 		158EF5B469E76CF1CAA77D1013BCCD89 /* GULHeartbeatDateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A061921C1062CDFB2B82D09A7B502F0F /* GULHeartbeatDateStorage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		15F905EF0E0F3E52F6428AF133E14EA1 /* ESOpenSourceLicensesKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit.bundle */; };
+		15F905EF0E0F3E52F6428AF133E14EA1 /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit in Resources */ = {isa = PBXBuildFile; fileRef = 6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit */; };
 		165B0D6371E331E5F1C1889B91324E40 /* GoogleUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CABA43FE68A6F6932CA933051BAB8E /* GoogleUtilities-dummy.m */; };
 		175A7A7AD32574293B56ECC71F3E18EE /* DublinCoreNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C69DB664D9E208156C4DBC212D587E /* DublinCoreNamespace.swift */; };
 		1763FBFDEB6FDBC74367EEB2084A9BCC /* MediaPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C307C91691442E8644BD44D1A40FE700 /* MediaPrice.swift */; };
@@ -214,7 +213,7 @@
 		9E308F6695E127BFF92F2A3951049600 /* GULHeartbeatDateStorageUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CB65E9DEF40C73A201F19C5CFB6984 /* GULHeartbeatDateStorageUserDefaults.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9EE03F7B052CA6B7AAFE5CF342AF0A05 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F767A3EE0E2F37251C37FFA4071F1D35 /* PrivacyInfo.xcprivacy */; };
 		A000DCCED8E40A0825DE200440967C43 /* MatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3129490454BB1D9A31C4208B1266B4F5 /* MatchResult.swift */; };
-		A0E775CBF215019BFECD090A322EDE4C /* Kingfisher.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */; };
+		A0E775CBF215019BFECD090A322EDE4C /* Kingfisher-Kingfisher in Resources */ = {isa = PBXBuildFile; fileRef = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */; };
 		A2B6EA6A2A1717B6B717C67D06A59F3A /* RSSFeedItemGUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7D2BD10401AD0DE91118B83288AC8 /* RSSFeedItemGUID.swift */; };
 		A2F26764A858DBA3274F8018F453A59B /* HTMLString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5AE10A566622AB5EC21F2AB526001C /* HTMLString-dummy.m */; };
 		A5564AA8E19CD6B45C7226B07D999E23 /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = AE256D8DA9FC62DBD118BFD6A761D0AE /* FBLPromise+Retry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -254,7 +253,7 @@
 		C45D99794B6AF00904D42FD30C11A2A8 /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F065B312DEC1C99E998D23F1A97406 /* FBLPromise+Recover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C464A1595E8A4E97362A46431FCB1800 /* ESOpenSourceLicensesKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 927957E79625FC107A356444806CE3A0 /* ESOpenSourceLicensesKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C56E057A9CBF35A5F9B1BC280AAD9942 /* Foundation+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4DB9C21ED365259DCCF1AD1C51EB4 /* Foundation+Ranges.swift */; };
-		C6AD810DCC7F6646F2669B39CCAD8836 /* FBLPromises_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */; };
+		C6AD810DCC7F6646F2669B39CCAD8836 /* PromisesObjC-FBLPromises_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */; };
 		C6C3AD44CB3CCF4D9DAB2068E42C50C2 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5059E516123C2FD51F4D8527DAB65DD /* Delegate.swift */; };
 		C94DDB8BA34D30346568BACC51491C90 /* MediaText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB2B72A114996DF034B9BFDDB2980D /* MediaText.swift */; };
 		C9968C3D029E63F73276EF04EBD3E0A7 /* MediaHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5018E4EDDDB381B4480F67F15A35D1E /* MediaHash.swift */; };
@@ -458,7 +457,7 @@
 		11D4A27BCCA9AD599BE28FA03D691A22 /* String+ReplaceMatching.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ReplaceMatching.swift"; path = "Source/Regex/String+ReplaceMatching.swift"; sourceTree = "<group>"; };
 		120038639C0B9A74CCC1980FB1906389 /* MediaLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaLocation.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaLocation.swift; sourceTree = "<group>"; };
 		127F2245929F55F9F2C2CFBDE899F8B1 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
-		135855D3E9D3649652814AE56E6694D2 /* Documentation.docc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = Sources/Documentation.docc; sourceTree = "<group>"; };
+		135855D3E9D3649652814AE56E6694D2 /* Documentation.docc */ = {isa = PBXFileReference; includeInIndex = 1; name = Documentation.docc; path = Sources/Documentation.docc; sourceTree = "<group>"; };
 		14824302057C6D09CA7C9F85CF08682A /* AtomFeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomFeed.swift; path = Sources/FeedKit/Models/Atom/AtomFeed.swift; sourceTree = "<group>"; };
 		149F5EA540CBEE4D1D935E31409F4C84 /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
 		14D786A75D0E808E75A7AE4030DF7E51 /* ESOpenSourceLicensesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESOpenSourceLicensesView.swift; path = ESOpenSourceLicensesKit/Classes/ESOpenSourceLicensesView.swift; sourceTree = "<group>"; };
@@ -473,7 +472,7 @@
 		190E62C8044D20B5B3C7635E2E6883B4 /* KingfisherManager+LivePhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KingfisherManager+LivePhoto.swift"; path = "Sources/General/KingfisherManager+LivePhoto.swift"; sourceTree = "<group>"; };
 		19130DE2A20B5968E17D98769B12BF60 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		1936DFFF50B81EC63355E2B4BA7E5F06 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
-		19AC9A1F2E0D56ED0B75C9158D77E7DE /* ESOpenSourceLicensesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESOpenSourceLicensesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AC9A1F2E0D56ED0B75C9158D77E7DE /* ESOpenSourceLicensesKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESOpenSourceLicensesKit; path = ESOpenSourceLicensesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3A6A3A2F2C2E1BC7F607B732714DEA /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		1B427B22214DCC890F9D617AC33B0236 /* HTMLString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLString.swift; path = Sources/HTMLString/HTMLString.swift; sourceTree = "<group>"; };
 		1BC9B3E509106B702794B12DBF3B25E3 /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEXML.modulemap; sourceTree = "<group>"; };
@@ -499,7 +498,7 @@
 		2F958195703BD122F61ADB9B86EFF60F /* KF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KF.swift; path = Sources/General/KF.swift; sourceTree = "<group>"; };
 		3129490454BB1D9A31C4208B1266B4F5 /* MatchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchResult.swift; path = Source/Regex/MatchResult.swift; sourceTree = "<group>"; };
 		31ED5818A1B6978CA06FFEC20CE9C617 /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
-		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesObjC; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C2E7AA544C83E05EF079A6B4DB65F6 /* ESOpenSourceLicensesKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESOpenSourceLicensesKit-dummy.m"; sourceTree = "<group>"; };
 		341AD20F8D60A0DE6A9508C989FF02D4 /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		350F55E6AE902FF6CAA460287132DFAE /* AtomFeedEntrySource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomFeedEntrySource.swift; path = Sources/FeedKit/Models/Atom/AtomFeedEntrySource.swift; sourceTree = "<group>"; };
@@ -508,7 +507,7 @@
 		37A0C60E1457C692E79C64D14231DCA4 /* PromisesObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.release.xcconfig; sourceTree = "<group>"; };
 		37D1678DDB0620FA79D9E9C57483C402 /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
 		3887D318733FDCEB8B7C00CD89FFBC09 /* GraphicsContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicsContext.swift; path = Sources/Image/GraphicsContext.swift; sourceTree = "<group>"; };
-		39230117B7CC98E3EE1B7B119A8A8884 /* Kml_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kml_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39230117B7CC98E3EE1B7B119A8A8884 /* Kml.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kml.swift; path = Kml_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A17752B5C5BAD6A4130175DD51D40E3 /* RFC822DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RFC822DateFormatter.swift; path = Sources/FeedKit/Dates/RFC822DateFormatter.swift; sourceTree = "<group>"; };
 		3A9F9C91F0C69534DD4B0CA0B31FF728 /* AtomFeedSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomFeedSubtitle.swift; path = Sources/FeedKit/Models/Atom/AtomFeedSubtitle.swift; sourceTree = "<group>"; };
 		3B361F4DBE01C3315AE7087959B39E52 /* GULHeartbeatDateStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorage.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h; sourceTree = "<group>"; };
@@ -518,14 +517,14 @@
 		3CCFEC1A7D17415C2E087F8000E89B83 /* GoogleAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAnalytics.release.xcconfig; sourceTree = "<group>"; };
 		3E7BF9D2B050F99E2A81D9BC58194188 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
 		3E9D5F074A0A319D4C73984F0BF1B54D /* GULUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULUserDefaults.h; path = GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h; sourceTree = "<group>"; };
-		3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PromisesObjC-FBLPromises_Privacy"; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F987A9584C033E8A11989AD5D1FDA98 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
 		40D9C0E1514969465F4F0F8F5F528074 /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
 		40ED50B3238ED06F165A3353C57CEB89 /* ResourceBundle-GoogleUtilities_Privacy-GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleUtilities_Privacy-GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
 		43AEDDEB4B72D2F77239C7364DBB8837 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		43D97531F6717C95CA7762BB883B8140 /* String+SHA256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SHA256.swift"; path = "Sources/Utility/String+SHA256.swift"; sourceTree = "<group>"; };
-		4416A3AB0A19374B917D88A5BB435B88 /* GoogleAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleAnalytics.xcframework; path = Frameworks/GoogleAnalytics.xcframework; sourceTree = "<group>"; };
-		44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4416A3AB0A19374B917D88A5BB435B88 /* GoogleAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleAnalytics.xcframework; path = Frameworks/GoogleAnalytics.xcframework; sourceTree = "<group>"; };
+		44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUtilities-GoogleUtilities_Privacy"; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EDC21FBD64E0B3638078CE27760498 /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
 		4522B20C30BBE19D6DE367EC8B464125 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
 		45FD8494498C80B4272D5C010C5529BD /* ESOpenSourceLicensesKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESOpenSourceLicensesKit-Info.plist"; sourceTree = "<group>"; };
@@ -541,7 +540,7 @@
 		4DD46DFCBAA0EC2477540C5F7FE9D96A /* MediaTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaTag.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaTag.swift; sourceTree = "<group>"; };
 		5069BCF1A6C1B3E697FA1B81E99484E0 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
 		50BB6D5C046896A0AB6F251A40668630 /* Pods-Geneve-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Geneve-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50C444083B852533D2ECB5739685258D /* FeedKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C444083B852533D2ECB5739685258D /* FeedKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeedKit; path = FeedKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5143104B295520BB6F82389653271F68 /* Feed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feed.swift; path = Sources/FeedKit/Parser/Feed.swift; sourceTree = "<group>"; };
 		534A2674866D7B762F4F9381536BBD23 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
 		5437D9ACA2057196448005EE7BA24CF7 /* NSURLSession+GULPromises.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+GULPromises.m"; path = "GoogleUtilities/Environment/URLSessionPromiseWrapper/NSURLSession+GULPromises.m"; sourceTree = "<group>"; };
@@ -549,7 +548,7 @@
 		558E5C036BAAFBA73766EC1DC1564471 /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
 		56A3EF9C895614721271824E698E055B /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
 		56EF838E41B9FBF0601714E90373CCDC /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
-		5816D738CA168B01E0C348FE76A3A814 /* Regex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Regex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5816D738CA168B01E0C348FE76A3A814 /* STRegex */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STRegex; path = Regex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7150FB41D941827D506C1D1E7FEB6B /* DisplayLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplayLink.swift; path = Sources/Utility/DisplayLink.swift; sourceTree = "<group>"; };
 		5C7F8CACF94A90F84D5C0DB7048FA8AA /* RSSFeedCloud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSFeedCloud.swift; path = Sources/FeedKit/Models/RSS/RSSFeedCloud.swift; sourceTree = "<group>"; };
 		5CBAB161891558E42638889BE78238E2 /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
@@ -578,7 +577,7 @@
 		6D87C0EFF929115241E4973180A29E8B /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
 		6EA47F0191381836E31DE4845D169F0B /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
 		6EA5782294A886318C9C5A6806662F84 /* Kml.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kml.swift-prefix.pch"; sourceTree = "<group>"; };
-		6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESOpenSourceLicensesKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ESOpenSourceLicensesKit-ESOpenSourceLicensesKit"; path = ESOpenSourceLicensesKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		706DBC327AD1153D46688F7580C1E100 /* MediaStarRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaStarRating.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaStarRating.swift; sourceTree = "<group>"; };
 		714E97D4AC618A67CEFABCDAEEDED0EA /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		7221297A585BF1129B4A76F0AC6C1321 /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
@@ -593,7 +592,7 @@
 		7D054C65F08A53F966A3753C40B9DA75 /* Date + codingStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date + codingStrategy.swift"; path = "Sources/FeedKit/Extensions/Date + codingStrategy.swift"; sourceTree = "<group>"; };
 		7D13F5D2108F8679D042B7FD90214E66 /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
 		7D55B2370FF457E1854ABB5D05CDB5A5 /* KML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KML.swift; path = Source/KML.swift; sourceTree = "<group>"; };
-		7D9B55DBC285E986B78CE863C9DE2AA7 /* Pods_Geneve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geneve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9B55DBC285E986B78CE863C9DE2AA7 /* Pods-Geneve */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Geneve"; path = Pods_Geneve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4B68241E1C6CF17295B50062A94762 /* HTMLString.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMLString.release.xcconfig; sourceTree = "<group>"; };
 		7FFA30DAB5EB0CCEF77621430E1E1198 /* KFImageProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageProtocol.swift; path = Sources/SwiftUI/KFImageProtocol.swift; sourceTree = "<group>"; };
 		7FFD2BBAC2D0862409D9F555048DEB1B /* Pods-Geneve-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Geneve-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -601,9 +600,9 @@
 		816A9D12466F9C31B3741BB29EE753FF /* MediaContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaContent.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaContent.swift; sourceTree = "<group>"; };
 		81A8C171CA759C1AB032B3C9B88853A2 /* iTunesNamespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iTunesNamespace.swift; path = Sources/FeedKit/Models/Namespaces/iTunes/iTunesNamespace.swift; sourceTree = "<group>"; };
 		82CA0BF3E590FFC74C2B00FAF6D4AFBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		832F2385721B9DD662C68D8A48B36EDE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = GoogleUtilities/Privacy/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		832F2385721B9DD662C68D8A48B36EDE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GoogleUtilities/Privacy/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		837299102BF6F0F84E65983B15D1FEE4 /* MediaNamespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaNamespace.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaNamespace.swift; sourceTree = "<group>"; };
-		83D4A07C3070D2CE306C9900DF936179 /* opensource-licenses.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = "opensource-licenses.html"; path = "ESOpenSourceLicensesKit/Resources/opensource-licenses.html"; sourceTree = "<group>"; };
+		83D4A07C3070D2CE306C9900DF936179 /* opensource-licenses.html */ = {isa = PBXFileReference; includeInIndex = 1; name = "opensource-licenses.html"; path = "ESOpenSourceLicensesKit/Resources/opensource-licenses.html"; sourceTree = "<group>"; };
 		842ADF23CEEDF7FCBDF9741E6D03B86A /* KFImageRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageRenderer.swift; path = Sources/SwiftUI/KFImageRenderer.swift; sourceTree = "<group>"; };
 		87C69DB664D9E208156C4DBC212D587E /* DublinCoreNamespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DublinCoreNamespace.swift; path = "Sources/FeedKit/Models/Namespaces/Dublin Core/DublinCoreNamespace.swift"; sourceTree = "<group>"; };
 		89EC54D276FCF38026E1A6AF0FB4E39C /* RSSFeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSFeed.swift; path = Sources/FeedKit/Models/RSS/RSSFeed.swift; sourceTree = "<group>"; };
@@ -636,7 +635,7 @@
 		9B3E1474B11473BEFCAD500F07D99128 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/HTMLString/Deprecated.swift; sourceTree = "<group>"; };
 		9B6AC72749395FB7BE78CEEC6CF90DC7 /* HasImageComponent+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HasImageComponent+Kingfisher.swift"; path = "Sources/Extensions/HasImageComponent+Kingfisher.swift"; sourceTree = "<group>"; };
 		9D0C90FB8B5F1EF94FA0CD5F3DFB7FBE /* GULNetworkInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkInfo.m; path = GoogleUtilities/Environment/NetworkInfo/GULNetworkInfo.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE81988CB9304979E345B7635DCCB78 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		9E3421A35F768BDBDC34C082CA2EFA3F /* ESOpenSourceLicensesKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESOpenSourceLicensesKit.modulemap; sourceTree = "<group>"; };
 		9E9B183D5EFD279DC72BFC3FC29040B1 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
@@ -663,7 +662,7 @@
 		AD25B10F16F8087CA591C357BB9DC695 /* AEXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEXML-Info.plist"; sourceTree = "<group>"; };
 		ADD9517E7D3EC2B3432F9A22E4D25FBE /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
 		AE256D8DA9FC62DBD118BFD6A761D0AE /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
-		AFD2E2B9ED3C4F7FE37A08C11B8A1A48 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AFD2E2B9ED3C4F7FE37A08C11B8A1A48 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AFFD13706BCD52157FCAF8F6B3F697B0 /* FeedKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedKit-dummy.m"; sourceTree = "<group>"; };
 		B0E1B80B64B950EE3F9B03F76EEAABF4 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
 		B1CB65E9DEF40C73A201F19C5CFB6984 /* GULHeartbeatDateStorageUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorageUserDefaults.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorageUserDefaults.m; sourceTree = "<group>"; };
@@ -671,14 +670,14 @@
 		B334DB60C5837FC4E0E954396CD84114 /* GULHeartbeatDateStorageUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorageUserDefaults.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorageUserDefaults.h; sourceTree = "<group>"; };
 		B336F327B045FF0F8AF9CD8796B7C21A /* AtomFeedLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomFeedLink.swift; path = Sources/FeedKit/Models/Atom/AtomFeedLink.swift; sourceTree = "<group>"; };
 		B4148EF5A0E5510988DAC55A14E26BD1 /* URL + replacingScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL + replacingScheme.swift"; path = "Sources/FeedKit/Extensions/URL + replacingScheme.swift"; sourceTree = "<group>"; };
-		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B1A01BB2779A0C04E0D61C3B6DC429 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
 		B5018E4EDDDB381B4480F67F15A35D1E /* MediaHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaHash.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaHash.swift; sourceTree = "<group>"; };
 		B5AB111A4DB9BA23D6BE9042DC53A53B /* RSSFeedItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSFeedItemSource.swift; path = Sources/FeedKit/Models/RSS/RSSFeedItemSource.swift; sourceTree = "<group>"; };
 		B5B2C93D1E10270F0411288EFEDB5AFB /* STRegex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRegex-umbrella.h"; sourceTree = "<group>"; };
 		B6F43D50F68EE2F933F73CC017F6E4D5 /* AEXML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.release.xcconfig; sourceTree = "<group>"; };
 		B7B50EFACDDD5531BA655BDB0C6B10BD /* RSSFeedCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSFeedCategory.swift; path = Sources/FeedKit/Models/RSS/RSSFeedCategory.swift; sourceTree = "<group>"; };
-		B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F452C8575CD760062098924FC3A1D2 /* AEXML */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82F6971CC0A113E20A07F14F5714FC6 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
 		B83DC40EA4EE38848F4CF9A8A07E84D3 /* ThreadLocal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadLocal.swift; path = Source/Regex/ThreadLocal.swift; sourceTree = "<group>"; };
 		BCCC856A42888D1AFDC28D36CD06D359 /* MediaSubTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaSubTitle.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaSubTitle.swift; sourceTree = "<group>"; };
@@ -692,14 +691,14 @@
 		C21EF9995834C0050EE3E2839293FCD4 /* RSSFeed + mapAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RSSFeed + mapAttributes.swift"; path = "Sources/FeedKit/Models/RSS/RSSFeed + mapAttributes.swift"; sourceTree = "<group>"; };
 		C228345D46B7A3DF2E8B7FF6C64266E2 /* MediaRestriction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaRestriction.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaRestriction.swift; sourceTree = "<group>"; };
 		C258A9082A75C1DD95C31A7D869B3D36 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
-		C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kingfisher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Kingfisher-Kingfisher"; path = Kingfisher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A237BED5FDA01CC5F69733AEE69E9E /* AVAssetImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetImageDataProvider.swift; path = Sources/General/ImageSource/AVAssetImageDataProvider.swift; sourceTree = "<group>"; };
-		C2F1260D33131885C9706454EAD525FA /* HTMLString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMLString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F1260D33131885C9706454EAD525FA /* HTMLString */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMLString; path = HTMLString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C307C91691442E8644BD44D1A40FE700 /* MediaPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaPrice.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaPrice.swift; sourceTree = "<group>"; };
 		C36563E0308A19D0047C36367771CCE8 /* RSSFeed + mapCharacters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RSSFeed + mapCharacters.swift"; path = "Sources/FeedKit/Models/RSS/RSSFeed + mapCharacters.swift"; sourceTree = "<group>"; };
 		C3D500D7858DA73F64F2235C0C538A12 /* MediaParam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaParam.swift; path = Sources/FeedKit/Models/Namespaces/Media/MediaParam.swift; sourceTree = "<group>"; };
 		C3E129DEF51E652C7DD027E4320B6100 /* FeedKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedKit-umbrella.h"; sourceTree = "<group>"; };
-		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C455B3BCACB5BD7A729D5C2B8F9A11E5 /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
 		C4C887762617015A5BFD5A7EEE9FEB68 /* GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
 		C511667F89355A7DA2EBFD0BC1334826 /* GULURLSessionDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULURLSessionDataResponse.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h; sourceTree = "<group>"; };
@@ -765,7 +764,7 @@
 		F5EEFEFF3C97985223D4A96DDC861FAA /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
 		F696D2469E1DAB2395AC66A55B88E678 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		F6F366EE288104493602C6BEB1B05DB7 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
-		F767A3EE0E2F37251C37FFA4071F1D35 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/FBLPromises/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F767A3EE0E2F37251C37FFA4071F1D35 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/FBLPromises/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F7E8B6BBF7F55045DD9A9CCD07094F1C /* AtomFeed + mapCharacters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AtomFeed + mapCharacters.swift"; path = "Sources/FeedKit/Models/Atom/AtomFeed + mapCharacters.swift"; sourceTree = "<group>"; };
 		F84A814359D4CE30B46F143AE00C552B /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		F8D405244E9492DDB4157CEB7BED7B2E /* AtomFeedContributor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomFeedContributor.swift; path = Sources/FeedKit/Models/Atom/AtomFeedContributor.swift; sourceTree = "<group>"; };
@@ -990,6 +989,7 @@
 				1936DFFF50B81EC63355E2B4BA7E5F06 /* Parser.swift */,
 				D29EE6A7C0BFCC952E0EB000291F84D5 /* Support Files */,
 			);
+			name = AEXML;
 			path = AEXML;
 			sourceTree = "<group>";
 		};
@@ -1112,6 +1112,7 @@
 				5E4AF30C6762D7022165EC16AB6ABA69 /* Resources */,
 				1865B4994DD1C0258843318FEF7C4D6F /* Support Files */,
 			);
+			name = PromisesObjC;
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
@@ -1139,6 +1140,7 @@
 				8A81FA74F5B5CB949C745C44A3E80039 /* Resources */,
 				BA19AB8537B76556B72A0BAF0A45E57D /* Support Files */,
 			);
+			name = ESOpenSourceLicensesKit;
 			path = ESOpenSourceLicensesKit;
 			sourceTree = "<group>";
 		};
@@ -1151,6 +1153,7 @@
 				5C6E47587BEFBC59EC4EB112245AAADA /* Support Files */,
 				383D2705AE56F736CE4BE9AEDC88AE37 /* UserDefaults */,
 			);
+			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -1168,6 +1171,7 @@
 				7D55B2370FF457E1854ABB5D05CDB5A5 /* KML.swift */,
 				016C4F1453071B42EE3D6E10CB714665 /* Support Files */,
 			);
+			name = Kml.swift;
 			path = Kml.swift;
 			sourceTree = "<group>";
 		};
@@ -1193,20 +1197,20 @@
 		B04B714F10A9F840C17CA22E637030A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */,
-				19AC9A1F2E0D56ED0B75C9158D77E7DE /* ESOpenSourceLicensesKit.framework */,
-				6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit.bundle */,
-				50C444083B852533D2ECB5739685258D /* FeedKit.framework */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
-				44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */,
-				C2F1260D33131885C9706454EAD525FA /* HTMLString.framework */,
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
-				C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */,
-				39230117B7CC98E3EE1B7B119A8A8884 /* Kml_swift.framework */,
-				7D9B55DBC285E986B78CE863C9DE2AA7 /* Pods_Geneve.framework */,
-				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
-				3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */,
-				5816D738CA168B01E0C348FE76A3A814 /* Regex.framework */,
+				B7F452C8575CD760062098924FC3A1D2 /* AEXML */,
+				19AC9A1F2E0D56ED0B75C9158D77E7DE /* ESOpenSourceLicensesKit */,
+				6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit */,
+				50C444083B852533D2ECB5739685258D /* FeedKit */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */,
+				44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */,
+				C2F1260D33131885C9706454EAD525FA /* HTMLString */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
+				C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */,
+				39230117B7CC98E3EE1B7B119A8A8884 /* Kml.swift */,
+				7D9B55DBC285E986B78CE863C9DE2AA7 /* Pods-Geneve */,
+				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
+				3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */,
+				5816D738CA168B01E0C348FE76A3A814 /* STRegex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1364,6 +1368,7 @@
 				FA16F703DC79E97CFD890511A835D6AB /* Resources */,
 				E5129F42A281FC9DF1A5D5F8A2C42EEB /* Support Files */,
 			);
+			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -1466,6 +1471,7 @@
 				C895BACE6AA6C2EBDBAA569F78736C91 /* XMLFeedType.swift */,
 				5A7B4A60ED806D63100376509E55EA25 /* Support Files */,
 			);
+			name = FeedKit;
 			path = FeedKit;
 			sourceTree = "<group>";
 		};
@@ -1475,6 +1481,7 @@
 				698300EB5B1B4821E14EA2DEFA5D5622 /* Frameworks */,
 				B027EC943BD3871553F96FDBC4E27080 /* Support Files */,
 			);
+			name = GoogleAnalytics;
 			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
@@ -1518,6 +1525,7 @@
 				66D2B079ECC5F56B4527A77864F6CCC3 /* NSString+HTMLString.swift */,
 				620E906E4625F26DE5EBF95E50EF2914 /* Support Files */,
 			);
+			name = HTMLString;
 			path = HTMLString;
 			sourceTree = "<group>";
 		};
@@ -1540,6 +1548,7 @@
 				B83DC40EA4EE38848F4CF9A8A07E84D3 /* ThreadLocal.swift */,
 				1925AF660D21B62DE248556F10289A4B /* Support Files */,
 			);
+			name = STRegex;
 			path = STRegex;
 			sourceTree = "<group>";
 		};
@@ -1678,7 +1687,7 @@
 			);
 			name = "PromisesObjC-FBLPromises_Privacy";
 			productName = FBLPromises_Privacy;
-			productReference = 3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */;
+			productReference = 3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
@@ -1697,7 +1706,7 @@
 			);
 			name = PromisesObjC;
 			productName = FBLPromises;
-			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */;
 			productType = "com.apple.product-type.framework";
 		};
 		36B772207A736867F8DE882B98BC804D /* FeedKit */ = {
@@ -1715,7 +1724,7 @@
 			);
 			name = FeedKit;
 			productName = FeedKit;
-			productReference = 50C444083B852533D2ECB5739685258D /* FeedKit.framework */;
+			productReference = 50C444083B852533D2ECB5739685258D /* FeedKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		5FF1A58DEEC5DB749FCD6C120B97CC82 /* GoogleUtilities-GoogleUtilities_Privacy */ = {
@@ -1732,7 +1741,7 @@
 			);
 			name = "GoogleUtilities-GoogleUtilities_Privacy";
 			productName = GoogleUtilities_Privacy;
-			productReference = 44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */;
+			productReference = 44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		83370AD54466E4EC513E6066AA28F77E /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit */ = {
@@ -1749,7 +1758,7 @@
 			);
 			name = "ESOpenSourceLicensesKit-ESOpenSourceLicensesKit";
 			productName = ESOpenSourceLicensesKit;
-			productReference = 6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit.bundle */;
+			productReference = 6F29643F17832C180A043D73536A6384 /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8CBBB5F912A46416816ACB5330F561D2 /* Kml.swift */ = {
@@ -1768,7 +1777,7 @@
 			);
 			name = Kml.swift;
 			productName = Kml_swift;
-			productReference = 39230117B7CC98E3EE1B7B119A8A8884 /* Kml_swift.framework */;
+			productReference = 39230117B7CC98E3EE1B7B119A8A8884 /* Kml.swift */;
 			productType = "com.apple.product-type.framework";
 		};
 		8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */ = {
@@ -1788,7 +1797,7 @@
 			);
 			name = GoogleUtilities;
 			productName = GoogleUtilities;
-			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */;
 			productType = "com.apple.product-type.framework";
 		};
 		927B3C2509A086E510ED36831E3FE930 /* ESOpenSourceLicensesKit */ = {
@@ -1807,7 +1816,7 @@
 			);
 			name = ESOpenSourceLicensesKit;
 			productName = ESOpenSourceLicensesKit;
-			productReference = 19AC9A1F2E0D56ED0B75C9158D77E7DE /* ESOpenSourceLicensesKit.framework */;
+			productReference = 19AC9A1F2E0D56ED0B75C9158D77E7DE /* ESOpenSourceLicensesKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		9828BBC09E9FB1238624113D7456E59E /* Kingfisher-Kingfisher */ = {
@@ -1824,7 +1833,7 @@
 			);
 			name = "Kingfisher-Kingfisher";
 			productName = Kingfisher;
-			productReference = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher.bundle */;
+			productReference = C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A49D68C1C34ED76F7187144B7356E99A /* STRegex */ = {
@@ -1842,7 +1851,7 @@
 			);
 			name = STRegex;
 			productName = Regex;
-			productReference = 5816D738CA168B01E0C348FE76A3A814 /* Regex.framework */;
+			productReference = 5816D738CA168B01E0C348FE76A3A814 /* STRegex */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF1C9DC94F879499E63C94C0C7FA45FF /* HTMLString */ = {
@@ -1860,7 +1869,7 @@
 			);
 			name = HTMLString;
 			productName = HTMLString;
-			productReference = C2F1260D33131885C9706454EAD525FA /* HTMLString.framework */;
+			productReference = C2F1260D33131885C9706454EAD525FA /* HTMLString */;
 			productType = "com.apple.product-type.framework";
 		};
 		C563D679499B75B17751CBFA2E6D5941 /* Pods-Geneve */ = {
@@ -1888,7 +1897,7 @@
 			);
 			name = "Pods-Geneve";
 			productName = Pods_Geneve;
-			productReference = 7D9B55DBC285E986B78CE863C9DE2AA7 /* Pods_Geneve.framework */;
+			productReference = 7D9B55DBC285E986B78CE863C9DE2AA7 /* Pods-Geneve */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0C3B2890BA25B4203C768E55BB4D4FA /* AEXML */ = {
@@ -1906,7 +1915,7 @@
 			);
 			name = AEXML;
 			productName = AEXML;
-			productReference = B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */;
+			productReference = B7F452C8575CD760062098924FC3A1D2 /* AEXML */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
@@ -1925,7 +1934,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1974,7 +1983,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AD810DCC7F6646F2669B39CCAD8836 /* FBLPromises_Privacy.bundle in Resources */,
+				C6AD810DCC7F6646F2669B39CCAD8836 /* PromisesObjC-FBLPromises_Privacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2004,7 +2013,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E775CBF215019BFECD090A322EDE4C /* Kingfisher.bundle in Resources */,
+				A0E775CBF215019BFECD090A322EDE4C /* Kingfisher-Kingfisher in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2026,7 +2035,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F905EF0E0F3E52F6428AF133E14EA1 /* ESOpenSourceLicensesKit.bundle in Resources */,
+				15F905EF0E0F3E52F6428AF133E14EA1 /* ESOpenSourceLicensesKit-ESOpenSourceLicensesKit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2056,7 +2065,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1413CF45F8FE6FFBD1583A7AA91E26B2 /* GoogleUtilities_Privacy.bundle in Resources */,
+				1413CF45F8FE6FFBD1583A7AA91E26B2 /* GoogleUtilities-GoogleUtilities_Privacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2533,7 +2542,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2557,7 +2566,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FeedKit/FeedKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FeedKit/FeedKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FeedKit/FeedKit.modulemap";
 				PRODUCT_MODULE_NAME = FeedKit;
@@ -2589,7 +2598,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
 				PRODUCT_MODULE_NAME = AEXML;
@@ -2621,7 +2630,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
 				PRODUCT_MODULE_NAME = AEXML;
@@ -2653,7 +2662,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FeedKit/FeedKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FeedKit/FeedKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FeedKit/FeedKit.modulemap";
 				PRODUCT_MODULE_NAME = FeedKit;
@@ -2708,7 +2717,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUtilities";
 				IBSC_MODULE = GoogleUtilities;
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/ResourceBundle-GoogleUtilities_Privacy-GoogleUtilities-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = GoogleUtilities_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2732,7 +2741,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
 				PRODUCT_MODULE_NAME = GoogleUtilities;
@@ -2754,7 +2763,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2778,7 +2787,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.modulemap";
 				PRODUCT_MODULE_NAME = ESOpenSourceLicensesKit;
@@ -2801,7 +2810,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUtilities";
 				IBSC_MODULE = GoogleUtilities;
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/ResourceBundle-GoogleUtilities_Privacy-GoogleUtilities-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = GoogleUtilities_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2818,7 +2827,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PromisesObjC";
 				IBSC_MODULE = FBLPromises;
 				INFOPLIST_FILE = "Target Support Files/PromisesObjC/ResourceBundle-FBLPromises_Privacy-PromisesObjC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = FBLPromises_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2843,7 +2852,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HTMLString/HTMLString-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HTMLString/HTMLString-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HTMLString/HTMLString.modulemap";
 				PRODUCT_MODULE_NAME = HTMLString;
@@ -2874,7 +2883,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
 				PRODUCT_MODULE_NAME = GoogleUtilities;
@@ -2906,7 +2915,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kml.swift/Kml.swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kml.swift/Kml.swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kml.swift/Kml.swift.modulemap";
 				PRODUCT_MODULE_NAME = Kml_swift;
@@ -2995,7 +3004,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PromisesObjC";
 				IBSC_MODULE = FBLPromises;
 				INFOPLIST_FILE = "Target Support Files/PromisesObjC/ResourceBundle-FBLPromises_Privacy-PromisesObjC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = FBLPromises_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3059,7 +3068,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -3081,7 +3091,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit.modulemap";
 				PRODUCT_MODULE_NAME = ESOpenSourceLicensesKit;
@@ -3181,7 +3191,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/STRegex/STRegex-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/STRegex/STRegex-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/STRegex/STRegex.modulemap";
 				PRODUCT_MODULE_NAME = Regex;
@@ -3213,7 +3223,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/STRegex/STRegex-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/STRegex/STRegex-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/STRegex/STRegex.modulemap";
 				PRODUCT_MODULE_NAME = Regex;
@@ -3236,7 +3246,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ESOpenSourceLicensesKit";
 				IBSC_MODULE = ESOpenSourceLicensesKit;
 				INFOPLIST_FILE = "Target Support Files/ESOpenSourceLicensesKit/ResourceBundle-ESOpenSourceLicensesKit-ESOpenSourceLicensesKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = ESOpenSourceLicensesKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3259,7 +3269,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
 				PRODUCT_MODULE_NAME = FBLPromises;
@@ -3317,7 +3327,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ESOpenSourceLicensesKit";
 				IBSC_MODULE = ESOpenSourceLicensesKit;
 				INFOPLIST_FILE = "Target Support Files/ESOpenSourceLicensesKit/ResourceBundle-ESOpenSourceLicensesKit-ESOpenSourceLicensesKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = ESOpenSourceLicensesKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3340,7 +3350,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
 				PRODUCT_MODULE_NAME = FBLPromises;
@@ -3405,7 +3415,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kml.swift/Kml.swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kml.swift/Kml.swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kml.swift/Kml.swift.modulemap";
 				PRODUCT_MODULE_NAME = Kml_swift;
@@ -3437,7 +3447,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HTMLString/HTMLString-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HTMLString/HTMLString-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HTMLString/HTMLString.modulemap";
 				PRODUCT_MODULE_NAME = HTMLString;

@@ -12,6 +12,11 @@ target "Geneve" do
     pod 'Kml.swift', :git => 'https://github.com/elikohen/Kml.swift.git'
 end
 
-post_install do |installer_representation|
+post_install do |installer|
     system("ruby Pods/ESOpenSourceLicensesKit/ESOpenSourceLicensesKit/Scripts/generate_licenses.rb --post_install")
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
 end
