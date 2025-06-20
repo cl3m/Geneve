@@ -75,7 +75,7 @@
 			default: cell.textLabel.text = @"default";break;
 		}; break;
 		case 1: switch (indexPath.row) {
-            case 0 : cell.textLabel.text = @"Hôpitaux universitaires de Genève";cell.detailTextLabel.text=@"0223723311";break;
+            case 0 : cell.textLabel.text = @"Hôpitaux universitaires";cell.detailTextLabel.text=@"0223723311";break;
             case 1 : cell.textLabel.text = @"Hôpital de la Tour";cell.detailTextLabel.text=@"0227196111";break;
 			case 2 : cell.textLabel.text = @"Clinique de Carouge";cell.detailTextLabel.text=@"0223094545";break;
 			case 3 : cell.textLabel.text = @"AMG - Urgences à domicile";cell.detailTextLabel.text=@"0223212121";break;
@@ -124,7 +124,7 @@
     UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
 	NSURL *url = [NSURL URLWithString:[NSString
 									   stringWithFormat:@"tel:%@",cell.detailTextLabel.text]];
-	[[UIApplication sharedApplication] openURL:url];
+    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
     id tracker = [[GAI sharedInstance] defaultTracker];
     [tracker set:kGAIScreenName value:cell.textLabel.text];
     [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
