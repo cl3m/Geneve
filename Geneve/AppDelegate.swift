@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleAnalytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

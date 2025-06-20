@@ -8,6 +8,7 @@
 
 #import "CommunesViewController.h"
 #import "Commune.h"
+#import <GoogleAnalytics/GoogleAnalytics-umbrella.h>
 
 sqlite3 *database;
 
